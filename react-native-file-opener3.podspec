@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.name = package[:name]
   s.version = package[:version]
   s.license = { type: "MIT" }
-  s.homepage = "https://github.com/reylen/react-native-file-opener"
+  s.homepage = "https://github.com/reylen/react-native-file-opener3.git"
   s.authors = package[:author]
   s.summary = package[:description]
   s.source = { git: package[:repository][:url] }
