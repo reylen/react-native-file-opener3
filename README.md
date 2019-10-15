@@ -10,18 +10,22 @@ iOS | Android
 
 # Install
 ##iOS
-1. `npm install react-native-file-opener --save`
+1. `npm install react-native-file-opener3 --save`
+
+No link need! podspec added yet.
 
 2. Compile and have fun
 
 ##Android
-* `npm install react-native-file-opener --save`
+* `npm install react-native-file-opener3 --save`
 
 
 ##Usage
 1. In your React Native javascript code, bring in the native module
 ```javascript
-const FileOpener = require('react-native-file-opener');
+const FileOpener = require('react-native-file-opener3');
+OR
+import FileOpener from 'react-native-file-opener3';
 ```
 2. Basic usage
 ```javascript
@@ -41,7 +45,7 @@ FileOpener.open(
 
 ```javascript
 const RNFS = require('react-native-fs');
-const FileOpener = require('react-native-file-opener');
+const FileOpener = require('react-native-file-opener3');
 
 const SavePath = Platform.OS === 'ios' ? RNFS.DocumentDirectoryPath : RNFS.ExternalDirectoryPath;
 const sampleDocFilePath = SavePath + '/sample.doc';
